@@ -1,0 +1,143 @@
+/* GENERAL STYLING */
+.line{
+    border-top:10px solid #232323;
+    border-radius: 1px;
+    margin-bottom: 20px !important;
+}
+.fs-50 {
+    font-size: 50px !important;
+}
+.heading {
+    font-size: clamp(2rem, 345px, 2.5rem);
+}
+.border-top  {
+    border-top:10px solid #232323 !important;
+}
+.border-bottom {
+    border-bottom:10px solid #232323 !important;
+}
+.padding{
+    padding-top: 80px !important;
+}
+/* Hero section */
+.bg {
+    position: relative;
+    background-image: url(../images/netflix-hero-image.jpg);
+    background-size: cover;
+    /* height: 700px; */
+    height: 100vh;
+    width: 100%;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+  
+
+}
+/* 
+.bg::before {
+    content: '';
+    position: absolute;
+    height: 100vh;
+    top: 0;
+    left: 0;
+   
+} */
+.image-overlay {
+height: 100vh;
+width: 100%;
+background-color: rgba(0, 0, 0, 0.5);
+}
+.logo {
+    position: absolute;
+    top: 3%;
+    right: 43%;
+    
+}
+.logo-button{
+    position: absolute;
+    top: 5%;
+    left: 80%;
+    
+}
+
+
+.logo-color{
+    background-color: #e50914 !important;
+    color: white;
+}
+.logo-color:hover:active{
+    color: white !important;
+}
+.content-hero {
+    position: absolute;
+    top: 35%;
+    left: 19%;
+    font-size: 52px !important;
+}
+.watch {
+    position: absolute;
+    top: 48%;
+    left: 30%; 
+}
+.email {
+    position: absolute;
+    top: 55%;
+    left: 21%; 
+}
+.form-floating{
+    position: absolute;
+    top: 65%;
+    left: 23%;
+}
+.email-button {
+    position: absolute;
+    top: 65%;
+    left: 58%;
+    background-color: #e50914 !important;
+    color: white;
+}
+/* ACCORDIAN */
+
+.accordion {
+    --bs-accordion-bg: #2d2d2d !important;
+    --bs-accordion-active-bg: #2d2d2d !important;
+    --bs-accordion-btn-icon-width: 2.25rem !important;
+    --bs-accordion-btn-focus-border-color: transparent !important;
+    --bs-accordion-active-color: transparent !important;
+    --bs-accordion-btn-focus-box-shadow: none !important;
+    --bs-accordion-btn-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-plus' viewBox='0 0 16 16'%3E%3Cpath d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z'/%3E%3C/svg%3E");
+    --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-dash' viewBox='0 0 16 16'%3E%3Cpath d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z'/%3E%3C/svg%3E");
+}
+.accordion .accordion-button::after{
+   
+}
+
+.accordion-item {
+    margin: 20px 0;
+    border-radius: 8px;
+    border: 0 none !important;
+}
+.accordion-item .accordion-header{
+    border-radius: 28px !important;
+    border: 0 none !important;
+}
+
+.accordion.header:hover{
+    --bs-accordion-bg: #2d2d2d !important;
+
+}
+.accordion-item:hover {
+background-color: #2d2d2d !important;
+}
+.accordion-header {
+    font-size: 50px !important;
+}
+/* footer */
+a:active {
+color:#e50914 !important;
+}
+;
+
+
+a:focus {
+    color: #e50914 !important;
+}
